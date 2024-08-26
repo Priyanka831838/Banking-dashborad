@@ -1,0 +1,74 @@
+*{
+    margin: 0px;
+    text-align: center;
+}
+body {
+    display: flex;
+    justify-content: center;  
+    align-items: center;      
+    height: 100vh;            
+    background-color: #f4f4f4; 
+}
+.main{
+    width: 900px;
+    border: none;
+    border-radius: 10px; 
+      
+}
+
+.header{
+    padding: 15px;
+    background-color: #C0C78C;
+    font-size: 80px;
+}
+
+label{
+    font-size: 24px;
+}
+
+input[type="number"] {
+    padding: 10px; 
+    margin: 5px; 
+    width: 100%; 
+    box-sizing: border-box; 
+    font-size: 16px; 
+    border: 1px solid #ccc; 
+    border-radius: 5px;
+}
+
+.curbalance{
+   padding: 30px;
+    background-color: #A6B37D;
+    font-size: 40px;
+}
+
+.amount{
+    padding: 4px;
+    background-color: #FEFAE0;
+}
+
+button {
+    padding: 10px 20px; 
+    margin: 5px;
+    border: none; 
+    border-radius: 5px; 
+    background-color: #A6B37D; 
+    color: white; 
+    font-size: 16px; 
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #8A9C68; 
+}
+
+
+footer {
+    padding: 4px;
+    background-color: #B99470;
+    font-size: 12px; 
+}
+
+footer p, footer h4 {
+    margin: 5px;
+}
